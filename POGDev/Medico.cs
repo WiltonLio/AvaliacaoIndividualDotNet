@@ -4,17 +4,8 @@ namespace POGDev
     {
         public string Nome { get; set; }
         public string DataNascimento { get; set; }
-        public string Cpf { get; set; }
-        public string Crm { get; set; }
-
-        public Medico()
-        {
-            Nome = "";
-            DataNascimento = "";
-            Cpf = "";
-            Crm = "";
-        }
-
+        public string CPF { get; set; }
+        public string CRM { get; set; }
     }
 
 }
