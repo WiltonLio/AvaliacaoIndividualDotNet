@@ -59,8 +59,8 @@ public class Program
         }
 
         int mesInformado = 5;
-        var medicosEPacientesAniversariantes = _medicos.Where(m => m.DataNascimento.Contains(mesInformado.ToString()));
-        // var medicosEPacientesAniversariantes = _medicos.Where(m => DateTime.TryParse(m.DataNascimento, out DateTime dataNascimento) && dataNascimento.Month == mesInformado).Concat(pacientes.Where(p => DateTime.TryParse(p.DataNascimento, out var dataNascimento) && dataNascimento.Month == mesInformado));
+        // var medicosEPacientesAniversariantes = _medicos.Where(m => m.DataNascimento.Contains(mesInformado.ToString()));
+        var medicosEPacientesAniversariantes = _medicos.Where(m => DateTime.TryParse(m.DataNascimento, out DateTime dataNascimento) && dataNascimento.Month == mesInformado).Concat(pacientes.Where(p => DateTime.TryParse(p.DataNascimento, out var dataNascimento) && dataNascimento.Month == mesInformado));
         Console.WriteLine("Médicos e Pacientes aniversariantes do mês " + mesInformado + ":");
         foreach (var pessoa in medicosEPacientesAniversariantes)
         {
