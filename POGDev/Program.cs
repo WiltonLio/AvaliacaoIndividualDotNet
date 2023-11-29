@@ -1,19 +1,40 @@
-﻿Classes
- Médico: Nome, Data de Nascimento, CPF (tratar entrada com 11 dígitos) e CRM
- Paciente: Nome, Data de Nascimento, CPF (tratar entrada com 11 dígitos), Sexo (masculino e feminino) e Sintomas
-Requisitos:
-• Criar uma coleção de Médicos, validando CPF e CRM únicos.
-• Criar uma coleção de Pacientes, validando CPF único.
+﻿namespace POGDev
+public class Program
+{
+    public static void Main(string[] args)
+    {
+        List<Medico> medicos = new List<Medico>();
+        List<Paciente> pacientes = new List<Paciente>();
 
-Relatórios:
-1. Médicos com idade entre dois valores
-2.Pacientes com idade entre dois valores
-3.Pacientes do sexo informado pelo usuário
-4.Pacientes em ordem alfabética
-5.Pacientes cujos sintomas contenha texto informado pelo usuário
-6.Médicos e Pacientes aniversariantes do mês informado
+        medicos.Add(new Medico {
+            Nome = "Jose",
+            DataNascimento = "01/01/1980",
+            Cpf = "01234567890",
+            Crm = "12345678"
+        });
 
-Dicas:
-• Utilize expressões lambda para consultas.
-• Implemente consultas LINQ para gerar os relatórios.
-• Utilize tratamento de exceções para garantir uma experiência de usuário mais robusta e amigável.
+        medicos.Add(new Medico {
+            Nome = "Maria",
+            DataNascimento = "01/01/2000",
+            Cpf = "12345678910",
+            Crm = "01234567"
+        });
+
+        pacientes.Add(new Paciente {
+            Nome = "Jose",
+            DataNascimento = "01/01/2000",
+            Cpf = "12345678910",
+            Sexo = "Masculino",
+            Sintomas = "Tosse"
+        });
+
+        pacientes.Add(new Paciente {
+            Nome = "Karla",
+            DataNascimento = "01/01/2008",
+            Cpf = "23456789100",
+            Sexo = "Feminino",
+            Sintomas = "Febre"
+        });
+
+    }
+}

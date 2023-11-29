@@ -6,7 +6,7 @@ namespace POGDev
 //Sexo (masculino e feminino)
 //Sintomas
 
-Class Paciente
+public class Paciente
 {
     public string Nome { get; set;}
     public string DataNascimento { get; set;}
@@ -14,5 +14,11 @@ Class Paciente
     public string Sexo { get; set;}
     public string Sintomas { get; set;}
 
-    
+    public Paciente(){
+        Nome = "";
+        DataNascimento = "";
+        Cpf = "";
+        Sexo = "";
+        Sintomas = "";
+    } 
 }

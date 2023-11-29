@@ -1,0 +1,5 @@
+/home/wilton-freire-timoteo/Área de trabalho/DotNet/Avaliação Individual - DotNet/POGDev/obj/Debug/net7.0/POGDev.csproj.AssemblyReference.cache
+/home/wilton-freire-timoteo/Área de trabalho/DotNet/Avaliação Individual - DotNet/POGDev/obj/Debug/net7.0/POGDev.GeneratedMSBuildEditorConfig.editorconfig
+/home/wilton-freire-timoteo/Área de trabalho/DotNet/Avaliação Individual - DotNet/POGDev/obj/Debug/net7.0/POGDev.AssemblyInfoInputs.cache
+/home/wilton-freire-timoteo/Área de trabalho/DotNet/Avaliação Individual - DotNet/POGDev/obj/Debug/net7.0/POGDev.AssemblyInfo.cs
+/home/wilton-freire-timoteo/Área de trabalho/DotNet/Avaliação Individual - DotNet/POGDev/obj/Debug/net7.0/POGDev.csproj.CoreCompileInputs.cache

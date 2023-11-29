@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/wilton-freire-timoteo/Área de trabalho/DotNet/Avaliação Individual - DotNet/POG Dev/POG Dev.csproj",
-      "projectName": "POG Dev",
-      "projectPath": "/home/wilton-freire-timoteo/Área de trabalho/DotNet/Avaliação Individual - DotNet/POG Dev/POG Dev.csproj",
+      "projectUniqueName": "/home/wilton-freire-timoteo/Área de trabalho/DotNet/Avaliação Individual - DotNet/POGDev/POGDev.csproj",
+      "projectName": "POGDev",
+      "projectPath": "/home/wilton-freire-timoteo/Área de trabalho/DotNet/Avaliação Individual - DotNet/POGDev/POGDev.csproj",
       "packagesPath": "/home/wilton-freire-timoteo/.nuget/packages/",
-      "outputPath": "/home/wilton-freire-timoteo/Área de trabalho/DotNet/Avaliação Individual - DotNet/POG Dev/obj/",
+      "outputPath": "/home/wilton-freire-timoteo/Área de trabalho/DotNet/Avaliação Individual - DotNet/POGDev/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/wilton-freire-timoteo/.nuget/NuGet/NuGet.Config"
